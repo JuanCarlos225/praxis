@@ -1,0 +1,38 @@
+{
+    "perfiles": {
+      "usuario_123": {
+        "nombre": "Juan Pérez",
+        "correo": "juan@example.com",
+        "fecha_registro": "2025-03-04T12:00:00Z",
+        "creado_en": "2025-03-04T12:00:00Z"
+      }
+    },
+    "cuestionarios": {
+      "quiz_001": {
+        "titulo": "Cuestionario de Matemáticas",
+        "descripcion": "Prueba de álgebra básica",
+        "creado_en": "2025-03-04T12:00:00Z"
+      }
+    },
+    "preguntas": {
+      "pregunta_001": {
+        "cuestionarioRef": "quiz_001",
+        "texto": "¿Cuánto es 2+2?",
+        "opciones": ["3", "4", "5"],
+        "respuesta_correcta": 1,
+        "creado_en": "2025-03-04T12:00:00Z"
+      }
+    },
+    "resultados_cuestionarios": {
+      "resultado_001": {
+        "usuarioRef": "usuario_123",
+        "cuestionarioRef": "quiz_001",
+        "puntaje": 10,
+        "porcentaje": 100,
+        "completado_en": "2025-03-04T12:00:00Z",
+        "creado_en": "2025-03-04T12:00:00Z"
+      }
+    }
+  }
+  
+  
